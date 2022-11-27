@@ -1,0 +1,76 @@
+.section {
+    @apply tw-flex tw-flex-col tw-px-4 tw-py-20 tw-bg-indigo-500;
+}
+
+.app_bar {
+    @apply tw-bg-gradient-to-r tw-from-indigo-50 tw-to-indigo-100 !important;
+}
+
+.tool_bar {
+    @apply tw-bg-gradient-to-b tw-from-indigo-400 tw-to-indigo-300 !important;
+}
+
+.info_card {
+    @apply tw-shadow-lg
+}
+
+.content_wrapper_stepper {
+    @apply tw-p-0 !important;
+}
+
+.section_container {
+    /* min-height: calc(104vh - 70px - 59px - 87px); */
+    /* max-height: calc(104vh - 70px - 59px - 87px); */
+    min-height: calc(104.2vh - 70px - 59px - 87px);
+    max-height: calc(95.3vh - 70px - 59px - 87px);
+    overflow-y: auto;
+    @apply tw-px-2;
+    @apply tw-pt-0;
+}
+
+/* class="overflow-y-auto"
+            style="max-height: calc(105vh - 70px - 59px - 87px)" */
+.section__title {
+    @apply tw-mb-3 tw-text-4xl tw-font-bold;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        @apply tw-bg-primary tw-rounded-full tw-mr-3;
+    }
+}
+
+.customer_info_data {
+    @apply tw-flex tw-flex-row tw-justify-between;
+    /* @apply tw-p-1; */
+}
+
+.qtyField {
+    width: 20% !important;
+}
+
+/* Vuetify */
+.v-timeline-item {
+    @apply tw-p-0 !important;
+}
+
+@screen md {
+    .section {
+        @apply tw-flex-row tw-px-4;
+    }
+}
+
+/* logrocket animation */
+svg {
+    margin-top: 50px;
+}
+
+svg #letters path {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    fill-opacity: 0;
+}
+
+/* end logrocket animation */

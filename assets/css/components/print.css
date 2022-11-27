@@ -1,0 +1,47 @@
+.invoice_header {
+    /* @apply tw-shadow-lg; */
+    /* @apply tw-bg-indigo-300; */
+    @apply tw-grid tw-place-items-center;
+    @apply tw-py-0;
+
+    /* @apply print: tw-bg-indigo-300; */
+    &:print {
+        @apply tw-bg-indigo-500;
+    }
+}
+
+#print_component {
+    display: none;
+}
+
+@media print {
+    @page {
+        size: auto;
+        margin: 0;
+
+    }
+
+    .invoice_header {
+        /* @apply tw-bg-indigo-500 tw-m-0 !important; */
+        -webkit-print-color-adjust: exact;
+    }
+
+    #mainElement {
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 100%;
+    }
+
+    #printable_stepper {
+        box-shadow: none !important;
+    }
+
+    #no_print {
+        display: none !important;
+    }
+
+    #print_component {
+        visibility: visible;
+        display: block;
+    }
+}
