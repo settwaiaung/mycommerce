@@ -24,14 +24,8 @@
                 />
                 <v-card-title>
                   <div class="layout column align-center">
-                    <img
-                      src="@/static/logos/matesat.png"
-                      alt="GoodPay Dashboard"
-                      width="120"
-                      height="120"
-                    >
                     <h1 class="flex my-4 primary--text">
-                      Mate Sat Dashboard
+                      MYCOMMERCE DASHBOARD
                     </h1>
                   </div>
                 </v-card-title>

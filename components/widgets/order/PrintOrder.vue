@@ -32,7 +32,7 @@
         </button>
       </div>
       <div class="invoice_header">
-        <img class="tw-object-scale-down mt-6 tw-h-40 tw-w-90 rounded-full" src="@/static/logos/zabyuaye.png">
+        <img class="tw-object-scale-down mt-6 tw-h-40 tw-w-90 rounded-full" src="@/static/icon.png">
         <!-- <h2 class="tw-text-2xl tw-font-extrabold">
           Order
         </h2> -->

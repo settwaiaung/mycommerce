@@ -1,7 +1,7 @@
 // import colors from 'vuetify/es5/util/colors'
 import colors from 'tailwindcss/colors'
 const favicon =
-  process.env.NODE_ENV === 'production' ? '/m.svg' : '/m.svg'
+  process.env.NODE_ENV === 'production' ? '/favicon.ico' : '/favicon.ico'
 
 export default {
   transition: 'fade',
@@ -14,8 +14,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    // titleTemplate: '%s - Mate Sat',
-    title: 'Mate Sat',
+    title: 'MYCOMMERCE',
     htmlAttrs: {
       lang: 'en'
     },

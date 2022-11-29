@@ -29,7 +29,7 @@
       <v-footer height="auto" class="white pa-3 app--footer d-print-none mt-2 tw-bg-gradient-to-r tw-from-indigo-50 tw-to-indigo-100">
         <span class="caption">&copy; {{ new Date().getFullYear() }}</span>
         <v-spacer />
-        <span class="caption mr-1">M-TechSolutions</span>
+        <span class="caption mr-1">MYCOMMERCE</span>
         <v-icon color="pink" small>
           favorite
         </v-icon>
