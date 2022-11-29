@@ -12,9 +12,9 @@
     class="d-print-none"
   >
     <v-toolbar color="primary" dark>
-      <img src="@/static/logos/matesat.png" width="60" height="5" alt="MateSat">
+      <img src="@/static/icon.png" width="60" height="5" alt="MYCOMMERCE">
       <v-toolbar-title class="ml-0 pl-3">
-        <span class="hidden-sm-and-down">MateSat</span>
+        <span class="hidden-sm-and-down">MYCOMMERCE</span>
       </v-toolbar-title>
     </v-toolbar>
     <vue-perfect-scrollbar class="drawer-menu--scroll" :settings="scrollSettings">
